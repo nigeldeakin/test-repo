@@ -16,7 +16,7 @@ build:
     - wercker/maven:
       goals: install
       cache_repo: true
-      version: 3.5.2
+      version: 3.5.3
     - internal/docker-build:
       dockerfile: simple-service/target/Dockerfile
       image-name: simple-service
